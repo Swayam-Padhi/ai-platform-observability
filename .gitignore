@@ -1,11 +1,65 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv/
+.env/
+
+# macOS
+.DS_Store
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Runtime Outputs
+# -------------------------
+output/*.jsonl
+
+# Optional:
+# keep folder structure
+!output/.gitkeep
+
+# -------------------------
+# Vector DB
+# -------------------------
+vectorstore/chroma_db/
+
+# -------------------------
+# Docker
+# -------------------------
+docker/**/*.db
+docker/**/*.log
+
+# -------------------------
+# Test / Cache
+# -------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# -------------------------
+# Node
+# -------------------------
+frontend/react-ui/node_modules/
+
+# -------------------------
+# Secrets
+# -------------------------
+*.pem
+*.key
+*.crt
